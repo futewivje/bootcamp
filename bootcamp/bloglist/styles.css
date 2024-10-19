@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+}
+
+.row1 {
+  align-items: flex-end;
+  height: 90px;
+  background-color: aqua;
+  display: flex;
+}
+
+.word {
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+}
