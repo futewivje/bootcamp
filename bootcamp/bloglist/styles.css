@@ -3,13 +3,21 @@
 }
 
 .row1 {
-  align-items: flex-end;
-  height: 90px;
+  align-items: center;
+  height: 100px;
   background-color: aqua;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .word {
-  font-size: xx-large;
+  font-size: 30px; 
   font-family: "Times New Roman", Times, serif;
+}
+
+.material-symbols-outlined{
+  padding-bottom: 5px;
+  font-size: 60px;
+  line-height: 1;
 }
