@@ -1,23 +1,78 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
 .container {
   display: flex;
+  flex-direction: column;
 }
 
 .row1 {
-  align-items: center;
-  height: 100px;
-  background-color: aqua;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 50px;
   width: 100%;
 }
 
 .word {
-  font-size: 30px; 
+  font-size: 30px;
   font-family: "Times New Roman", Times, serif;
 }
 
-.material-symbols-outlined{
-  padding-bottom: 5px;
+.material-symbols-outlined {
   font-size: 60px;
   line-height: 1;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center; /* Centers the settings icon */
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.row2 .material-symbols-outlined {
+  padding-left: 20px;
+  justify-content: flex-start;
+}
+
+.button {
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.follow {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row3 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-size: smaller;
+  padding-left: 10px;
+}
+
+.buttons {
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
